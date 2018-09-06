@@ -212,6 +212,8 @@ bluestore_wal_devices: "{{ dedicated_devices }}"
 
 lvm_volumes: []
 crush_device_class: ""
+# a value of -1 indicates using the default values in ceph-volume
+osds_per_device: -1
 
 
 ##########
